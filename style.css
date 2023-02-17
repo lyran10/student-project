@@ -1,0 +1,72 @@
+*{
+  padding: 0;
+  margin : 0
+}
+.container{
+display: flex;
+flex-direction: column;
+justify-content: start;
+}
+
+.input{
+padding: 10px;
+border-radius: 5px;
+height:20px
+}
+
+.box1{
+display: flex;
+gap: 50px;
+padding: 20px;
+}
+
+.box2{
+  display: flex;
+  gap: 100px;
+  padding: 20px;
+  }
+
+.box2:nth-child(2){
+  margin-left: 20px;
+  }
+
+.innerBox{
+  display: flex;
+  gap: 350px;
+  margin-top: 10px;
+}
+
+.button{
+align-self: flex-end;
+padding: 10px;
+padding-right: 25px;
+border-radius: 5px;
+margin-right: 50px;
+cursor: pointer;
+}
+
+.buttonStyle{
+  padding: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  border: 1px solid black;
+  }
+
+.table{
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  }
+
+  .row{
+    display: flex;
+    gap: 50px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    padding: 10px;
+    border: 1px solid black;
+    }
